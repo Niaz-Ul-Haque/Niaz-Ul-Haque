@@ -23,7 +23,7 @@ const niaz = {
   location: "Toronto, Canada 🍁",
   role: "Full-Stack Developer",
   interests: ["Programming", "Kdramas", "Anime", "Kpop 🎵"],
-  currentlyBuilding: "CRM tools & full-stack web apps",
+  currentlyBuilding: "Full-stack web apps",
   alwaysLearning: true,
   funFact: "My code works best after a good Kdrama episode 📺",
 };
