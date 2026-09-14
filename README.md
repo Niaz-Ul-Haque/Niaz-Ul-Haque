@@ -1,201 +1,138 @@
 <div align="center">
 
-# Mohammed Niaz Ul Haque
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,55:1B3A5C,100:2F81F7&height=190&section=header&text=Niaz%20Ul%20Haque&fontSize=54&fontColor=E6EDF3&fontAlignY=36&animation=fadeIn&desc=software%20engineer%20%C2%B7%20toronto%2C%20canada&descSize=17&descAlignY=57" width="100%" alt="Niaz Ul Haque - software engineer, Toronto, Canada" />
 
-### Software Engineer · Full-Stack · Cloud · AI
+<a href="https://niazsite.vercel.app"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&pause=1400&color=2F81F7&center=true&vCenter=true&width=640&height=44&lines=Document+pipelines%2C+gateways%2C+and+zero+frontend+frameworks;I+write+the+rules+the+coding+agents+have+to+follow;Most+of+my+best+work+is+behind+a+private+toggle" alt="Document pipelines, gateways, and zero frontend frameworks" /></a>
 
-**Toronto, Canada 🇨🇦**
-
-I build practical, secure, and maintainable software across the stack — from polished web interfaces to APIs, cloud infrastructure, automation, and AI-powered tools.
-
-<p>
-  <a href="https://niazsite.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-181717?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://www.linkedin.com/in/mohammed-niaz-ul/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://x.com/AsahiKibo1">
-    <img src="https://img.shields.io/badge/X-@AsahiKibo1-000000?style=flat-square&logo=x&logoColor=white" alt="X" />
-  </a>
-</p>
+<samp><a href="https://niazsite.vercel.app"><b>portfolio</b></a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/mohammed-niaz-ul/"><b>linkedin</b></a> &nbsp;·&nbsp; <a href="https://x.com/AsahiKibo1"><b>x</b></a> &nbsp;·&nbsp; <a href="https://github.com/Niaz-Ul-Haque?tab=repositories"><b>repositories</b></a></samp>
 
 </div>
 
----
+<br>
 
-## 👋 About Me
+I build systems that take messy input — eighty-page financial PDFs, scanned faxes, three different spellings of the same client's name — and turn it into something a database is willing to accept.
 
-I'm a software engineer based in Toronto who enjoys taking ideas from **"this would be useful"** to something people can actually use.
+Python where the ML libraries live, TypeScript nearly everywhere else, Postgres underneath, and an unreasonable share of my attention on the seams between services, because that is where things actually break. I would rather ship a system someone else can still run in two years than one that wins an argument about frameworks.
 
-My work spans frontend, backend, databases, cloud infrastructure, CI/CD, and increasingly **AI-assisted software development**. TypeScript and the JavaScript ecosystem are where I spend most of my time, but I care more about choosing the right tool and shipping a solid product than being tied to a particular framework.
+> [!NOTE]
+> Twenty-four of my thirty most recent repositories are private. What follows is the trailer, not the film.
 
-Right now, I'm especially interested in:
+<br>
 
-* 🤖 AI integrations, developer agents, and AI-assisted workflows
-* ☁️ Serverless architecture and cloud-native backend systems
-* ⚡ TypeScript, React, Next.js, and modern full-stack development
-* 🔐 Secure authentication, data access, and deployment practices
-* 🛠️ Developer experience, automation, CI/CD, and maintainable systems
+## What I'm actually building
 
----
+Client names and product names omitted. The engineering was the interesting part anyway.
 
-## 🚀 Selected Projects
+**A document intelligence platform.** Canadian financial-advisory documents in; complete, redacted client profiles out. A Python engine handles conversion, OCR, LLM extraction and profile merge. A Node gateway owns the public surface, sessions and CRUD. Postgres and a filesystem data lake hold the results. Every hop is HTTP. There is no message bus, because there did not need to be one.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**A strangler migration nobody noticed.** Four Python services moved to Node one frozen contract at a time, with the new process answering the old loopback ports so the document pipeline kept calling them without knowing anything had changed. The remaining blockers are written down in the repo, including the three places where two processes still share state through a filesystem instead of an API. Unwritten blockers have a way of becoming somebody's Tuesday.
 
-### 💰 [Pocket Pilot](https://github.com/Niaz-Ul-Haque/pocket-pilot)
+**A frontend with no framework.** Native web components on an actor runtime: FIFO mailboxes, onion middleware, and a supervisor that health-checks its children and restarts the ones that stop answering. `fetch` lives in exactly one file. The model layer never touches the DOM. It was either principle or spite, and the bundle is smaller either way.
 
-A privacy-first personal finance application built for Canadians, combining traditional financial tracking with AI-powered insights.
+**An internal component library.** Custom elements, no runtime dependency, two stylesheets — the components and the theme values. It never goes to npm. Every product consumes it as an internal package, so a change to the look lands everywhere at once instead of in four pull requests.
 
-**Highlights**
+**The rules repo.** One repository holding the code-design practices, git workflow, PR checklist and review tooling that every other repository points at instead of copying. I work with coding agents daily, and the hard file turns out not to be the code — it's the one that explains what "good" means here, precisely enough that something without taste can follow it.
 
-* AI financial assistant
-* Budget and savings-goal management
-* Cash-flow forecasting
-* Spending and anomaly analysis
-* Reports and data visualization
-* Google OAuth and row-level security
+<details>
+<summary><b>&nbsp;the shape of it, roughly</b></summary>
 
-**Stack:** `Next.js` `TypeScript` `Supabase` `PostgreSQL` `Vercel AI SDK` `Tailwind CSS`
+<br>
 
-</td>
-<td width="50%" valign="top">
-
-### 🧭 [Revert Guide](https://github.com/Niaz-Ul-Haque/revert-guide)
-
-An offline-first, multilingual companion designed to help new Muslims find useful information, resources, guidance, and references.
-
-**Highlights**
-
-* English/French localization
-* Structured multilingual content
-* Automatic language fallback
-* Offline-first approach
-* Extensible translation architecture
-
-**Stack:** `Next.js` `TypeScript` `i18n`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### ☁️ [AWS Backend Playground](https://github.com/Niaz-Ul-Haque/aws-backend-playground)
-
-A serverless backend playground for experimenting with modern AWS architecture and secure automated deployments.
-
-**Highlights**
-
-* AWS Lambda with TypeScript
-* DynamoDB persistence
-* Infrastructure with AWS SAM
-* SSM Parameter Store
-* GitHub Actions CI/CD
-* AWS authentication through OIDC
-
-**Stack:** `TypeScript` `Node.js` `AWS Lambda` `DynamoDB` `AWS SAM` `GitHub Actions`
-
-</td>
-<td width="50%" valign="top">
-
-### 🌐 [SN Pest Control](https://github.com/Niaz-Ul-Haque/sn-pest-nextjs)
-
-A bilingual production website rebuilt with a modern Next.js architecture while maintaining accessibility, SEO, and performance.
-
-**Highlights**
-
-* English/French support
-* Responsive UI
-* Accessibility-focused components
-* Structured SEO / JSON-LD
-* Static generation
-* Vercel deployment
-
-**Stack:** `Next.js` `React` `TypeScript` `Vercel`
-
-</td>
-</tr>
-</table>
-
-<p align="right">
-  <a href="https://github.com/Niaz-Ul-Haque?tab=repositories"><strong>Explore all repositories →</strong></a>
-</p>
-
----
-
-## 🧰 Technology
-
-**Languages**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square\&logo=typescript\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=000)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square\&logo=postgresql\&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square\&logo=html5\&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square\&logo=css\&logoColor=white)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square\&logo=react\&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square\&logo=nextdotjs\&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square\&logo=tailwindcss\&logoColor=white)
-
-**Backend & Data**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square\&logo=nodedotjs\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square\&logo=supabase\&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square\&logo=amazondynamodb\&logoColor=white)
-
-**Cloud & Delivery**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square\&logo=amazonwebservices\&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square\&logo=vercel\&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square\&logo=githubactions\&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
-
----
-
-## 🧠 What I'm Exploring
-
-```text
-AI / LLMs        → agents, workflows, product integrations
-Cloud            → AWS serverless architecture & secure deployments
-Full Stack       → Next.js, TypeScript, APIs & PostgreSQL
-Engineering      → architecture, automation, testing & developer experience
+```mermaid
+flowchart LR
+FE["web components<br/>actor runtime"] --> GW["gateway<br/>sessions · auth"]
+GW --> APP["application layer<br/>reads · CRUD"]
+GW --> ING["integration<br/>pipeline jobs"]
+ING --> CV["convert + OCR"]
+CV --> EX["LLM extraction"]
+EX --> MG["merge + redact"]
+APP --> PG[("postgres")]
+MG --> PG
+MG --> DL[["data lake"]]
 ```
 
-I like experimenting with emerging tools, but the goal is always the same: **use technology to make the product simpler, not the architecture more impressive.**
+One public port. Everything else on loopback. The data lake is disposable by design — every profile in Postgres can be rebuilt from its artifacts, so a bad extraction is a reprocess, never a re-ingest.
 
----
+</details>
 
-## 🌱 A Bit More About Me
+<br>
 
-When I'm not building or experimenting with software, there's a good chance I'm watching a **K-drama**, catching up on **anime**, or listening to **K-pop**.
+## On the public shelf
 
-I enjoy learning new technologies, taking things apart to understand how they work, and building side projects simply because an idea seems interesting.
+**[Revert Guide](https://github.com/Niaz-Ul-Haque/revert-guide)** — An offline-first, multilingual companion for new Muslims. English and French, structured content, automatic language fallback, and a translation layer built to take a third language without a rewrite.
 
----
+**[ScrollMate](https://github.com/Niaz-Ul-Haque/Scrollmate)** — Hands-free auto-scroll for vertical comics on Android. Kotlin, accessibility gesture dispatch, a floating bubble that remembers where you put it, and deliberately **no `INTERNET` permission**. It cannot phone home. There is no phone, and there is no home.
 
-## 🤝 Let's Connect
+**[Pocket Pilot](https://github.com/Niaz-Ul-Haque/pocket-pilot)** — Privacy-first personal finance for Canadians. Budgets, savings goals, cash-flow forecasting, anomaly detection, row-level security, and an assistant that reads your spending so you don't have to relive it.
 
-I'm always interested in meeting other engineers, exchanging ideas, talking about interesting products, or collaborating on something useful.
+**[AWS Backend Playground](https://github.com/Niaz-Ul-Haque/aws-backend-playground)** — Lambda, DynamoDB, SAM, Parameter Store, and a deploy pipeline that authenticates through OIDC instead of a long-lived access key sitting in a secret somebody forgot to rotate.
 
-* 🌐 **Portfolio:** [niazsite.vercel.app](https://niazsite.vercel.app)
-* 💼 **LinkedIn:** [Mohammed Niaz Ul Haque](https://www.linkedin.com/in/mohammed-niaz-ul/)
-* 🐦 **X:** [@AsahiKibo1](https://x.com/AsahiKibo1)
-* 💻 **GitHub:** [@Niaz-Ul-Haque](https://github.com/Niaz-Ul-Haque)
+**[SN Pest Control](https://github.com/Niaz-Ul-Haque/sn-pest-nextjs)** — A bilingual production site, rebuilt. Statically generated, accessible, structured data throughout, and fast on the phone of someone who is currently looking at a wasp.
 
----
+<br>
+
+## Tools
+
+<div align="center"><img src="https://skillicons.dev/icons?i=ts,python,kotlin,nodejs,react,nextjs,tailwind,postgres,supabase,aws,docker,githubactions&theme=dark&perline=12" alt="TypeScript, Python, Kotlin, Node.js, React, Next.js, Tailwind, PostgreSQL, Supabase, AWS, Docker, GitHub Actions" /></div>
+
+And the unglamorous half that does the actual work: Vitest, Playwright, pgTAP, ruff, mypy, Docling, OCR, hermetic test suites that need no network, and a `commit-msg` hook that rejects my own commit messages more often than I would like to put in writing.
+
+<br>
+
+## Changelog
+
+```console
+## [2026.09] — unreleased
+
+### Added
+- a pipeline that reads eighty-page PDFs so that no human has to
+- pre-push hooks running typecheck and tests, because I could not be trusted
+- an architecture document, before the architecture
+
+### Changed
+- the frontend framework (removed it)
+- "microservice" to "module", after counting the actual hops
+
+### Deprecated
+- "we'll clean this up later"
+
+### Known issues
+- still explains system architecture at dinner parties
+- open tabs: 47 (wontfix)
+```
+
+<details>
+<summary><b>&nbsp;numbers, for the people who like numbers</b></summary>
+
+<br>
+
+<div align="center"><img src="https://streak-stats.demolab.com?user=Niaz-Ul-Haque&theme=transparent&hide_border=true&border_radius=10&mode=weekly&exclude_days=Sat%2CSun&date_format=M%20j%5B%2C%20Y%5D&ring=2F81F7&fire=2F81F7&currStreakLabel=2F81F7" alt="contribution streak" /></div>
+
+Weekends excluded on purpose. A streak that punishes you for having a Saturday is not a metric, it's a landlord.
+
+</details>
+
+<details>
+<summary><b>&nbsp;off-duty</b></summary>
+
+<br>
+
+K-dramas, anime and K-pop, in roughly that order and occasionally all at once. I have opinions about the pacing of the back half of a sixteen-episode run and I will share them without being asked.
+
+Otherwise: taking things apart to find out how they work, rebuilding them slightly worse, and learning more from the worse version than the original ever taught me.
+
+</details>
+
+<br>
 
 <div align="center">
 
-**Build useful things. Keep learning. Ship.**
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Niaz-Ul-Haque/Niaz-Ul-Haque/output/github-contribution-grid-snake-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Niaz-Ul-Haque/Niaz-Ul-Haque/output/github-contribution-grid-snake.svg"><img alt="a snake eating a year of my commits" src="https://raw.githubusercontent.com/Niaz-Ul-Haque/Niaz-Ul-Haque/output/github-contribution-grid-snake.svg"></picture>
 
-<sub>Thanks for stopping by 👋</sub>
+<br><br>
+
+<samp><b>Build useful things. Write down why. Ship.</b></samp>
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2F81F7,45:1B3A5C,100:0D1117&height=130&section=footer&reversal=true" width="100%" alt="" />
