@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 44" width="700" height="44" role="img" aria-label="Document pipelines, gateways, and no frontend framework. I write the rules the coding agents have to follow. Most of my best work is behind a private toggle.">
+  <defs>
+    <style>
+      .p{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,Liberation Mono,monospace;font-size:18px;fill:#5C87B8}
+      .l{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,Liberation Mono,monospace;font-size:18px;fill:#2F81F7}
+    </style>
+    <clipPath id="c0"><rect x="54" y="0" height="44" width="0"><animate attributeName="width" values="0;594;594;0;0" keyTimes="0;0.0889;0.2556;0.3111;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c1"><rect x="54" y="0" height="44" width="0"><animate attributeName="width" values="0;0;529;529;0;0" keyTimes="0;0.3333;0.4222;0.5889;0.6444;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="54" y="0" height="44" width="0"><animate attributeName="width" values="0;0;497;497;0;0" keyTimes="0;0.6667;0.7556;0.9222;0.9778;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+  <text class="p" x="28" y="29">&gt;</text>
+  <g opacity="1"><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.3333;1" dur="18s" calcMode="discrete" repeatCount="indefinite"/>
+    <g clip-path="url(#c0)"><text class="l" x="54" y="29" textLength="594" lengthAdjust="spacingAndGlyphs">Document pipelines, gateways, and no frontend framework</text></g>
+    <rect y="12" width="9" height="21" fill="#2F81F7" x="54"><animate attributeName="x" values="54;648;648;54;54" keyTimes="0;0.0889;0.2556;0.3111;1" dur="18s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></rect>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.3333;0.6667;1" dur="18s" calcMode="discrete" repeatCount="indefinite"/>
+    <g clip-path="url(#c1)"><text class="l" x="54" y="29" textLength="529" lengthAdjust="spacingAndGlyphs">I write the rules the coding agents have to follow</text></g>
+    <rect y="12" width="9" height="21" fill="#2F81F7" x="54"><animate attributeName="x" values="54;54;583;583;54;54" keyTimes="0;0.3333;0.4222;0.5889;0.6444;1" dur="18s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></rect>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3333;0.6667;1" dur="18s" calcMode="discrete" repeatCount="indefinite"/>
+    <g clip-path="url(#c2)"><text class="l" x="54" y="29" textLength="497" lengthAdjust="spacingAndGlyphs">Most of my best work is behind a private toggle</text></g>
+    <rect y="12" width="9" height="21" fill="#2F81F7" x="54"><animate attributeName="x" values="54;54;551;551;54;54" keyTimes="0;0.6667;0.7556;0.9222;0.9778;1" dur="18s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
