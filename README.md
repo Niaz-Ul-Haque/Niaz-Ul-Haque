@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,55:1B3A5C,100:2F81F7&height=190&section=header&text=Niaz%20Ul%20Haque&fontSize=54&fontColor=E6EDF3&fontAlignY=36&animation=fadeIn&desc=software%20engineer%20%C2%B7%20toronto%2C%20canada&descSize=17&descAlignY=57" width="100%" alt="Niaz Ul Haque, software engineer, Toronto, Canada" />
+<img src="https://raw.githubusercontent.com/Niaz-Ul-Haque/Niaz-Ul-Haque/main/assets/banner.svg" width="100%" alt="Niaz Ul Haque, software engineer, Toronto, Canada" />
 
 <a href="https://niazsite.vercel.app"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1400&color=2F81F7&center=true&vCenter=true&width=760&height=44&lines=Document+pipelines%2C+gateways%2C+and+no+frontend+framework;I+write+the+rules+the+coding+agents+have+to+follow;Most+of+my+best+work+is+behind+a+private+toggle" alt="Document pipelines, gateways, and no frontend framework" /></a>
 
@@ -135,4 +135,4 @@ Otherwise: taking things apart to find out how they work, rebuilding them slight
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2F81F7,45:1B3A5C,100:0D1117&height=130&section=footer&reversal=true" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/Niaz-Ul-Haque/Niaz-Ul-Haque/main/assets/footer.svg" width="100%" alt="" />
