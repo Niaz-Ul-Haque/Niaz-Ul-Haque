@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/Niaz-Ul-Haque/Niaz-Ul-Haque/main/assets/banner.svg" width="100%" alt="Niaz Ul Haque, software engineer, Toronto, Canada" />
 
-<a href="https://niazsite.vercel.app"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1400&color=2F81F7&center=true&vCenter=true&width=760&height=44&lines=Document+pipelines%2C+gateways%2C+and+no+frontend+framework;I+write+the+rules+the+coding+agents+have+to+follow;Most+of+my+best+work+is+behind+a+private+toggle" alt="Document pipelines, gateways, and no frontend framework" /></a>
+<img src="https://raw.githubusercontent.com/Niaz-Ul-Haque/Niaz-Ul-Haque/main/assets/tagline.svg" alt="Document pipelines, gateways, and no frontend framework" />
 
 <samp><a href="https://niazsite.vercel.app"><b>portfolio</b></a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/mohammed-niaz-ul/"><b>linkedin</b></a> &nbsp;·&nbsp; <a href="https://x.com/AsahiKibo1"><b>x</b></a> &nbsp;·&nbsp; <a href="https://github.com/Niaz-Ul-Haque?tab=repositories"><b>repositories</b></a></samp>
 
