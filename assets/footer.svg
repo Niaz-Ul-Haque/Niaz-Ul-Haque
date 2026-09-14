@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#2F81F7"/>
+      <stop offset="0.55" stop-color="#16324F"/>
+      <stop offset="1" stop-color="#0B0F16"/>
+    </linearGradient>
+    <linearGradient id="fw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8FD0FF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2F81F7" stop-opacity="0.10"/>
+    </linearGradient>
+    <style>
+      .fa{animation:fslide 28s linear infinite}
+      @keyframes fslide{from{transform:translateX(-600px)}to{transform:translateX(0)}}
+    </style>
+  </defs>
+  <rect width="1200" height="120" fill="url(#fbg)"/>
+  <g class="fa"><path d="M0 44 q150 32 300 0 t300 0 t300 0 t300 0 t300 0 t300 0 V0 H0 Z" fill="url(#fw)"/></g>
+</svg>
